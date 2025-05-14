@@ -1,0 +1,80 @@
+.analysis-details {
+    padding: 16px;
+}
+
+.analysis-image {
+    margin-bottom: 24px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--mantine-color-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[data-mantine-color-scheme="light"] .analysis-image img {
+    filter: brightness(0.95) contrast(1.1);
+}
+
+.analysis-image img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: filter 0.2s ease;
+}
+
+.analysis-info {
+    padding: 20px;
+    background-color: var(--mantine-color-body);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.analysis-info h3 {
+    margin: 0 0 16px 0;
+    color: #1a1b1e;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.analysis-info p {
+    margin: 8px 0;
+    color: #4a4b4e;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Table styles */
+.mantine-Table-root {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0;
+}
+
+.mantine-Table-tr {
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.mantine-Table-tr:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.mantine-Table-td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+/* Modal styles */
+.mantine-Modal-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.mantine-Modal-header {
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 16px;
+}

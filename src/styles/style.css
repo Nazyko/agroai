@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100..900&display=swap');
+
+.App {
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding: 0 40px;
+    margin: 0 auto;
+
+}

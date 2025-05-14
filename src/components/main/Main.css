@@ -1,0 +1,25 @@
+.main {
+    padding: 40px;
+    align-items: center;
+}
+
+.main_left {
+    width: 50%;
+}
+
+.main_title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.main_desc {
+    color: #3C3838;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main_image {
+    width: 390px;
+    height: 367px;
+}
+

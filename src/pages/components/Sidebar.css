@@ -1,0 +1,60 @@
+.sidebar {
+    width: 250px;
+    background-color: var(--mantine-color-body);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: 1px solid var(--mantine-color-gray-3);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: var(--mantine-color-text);
+}
+
+.menu {
+    list-style: none;
+    height: 90%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.menu Link {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    align-items: center;
+}
+
+.link-styles {
+    display: flex;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10%;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--mantine-color-green-6);
+    color: var(--mantine-color-white);
+}
+
+.link-styles:hover {
+    color: var(--mantine-color-white);
+    background-color: var(--mantine-color-green-8);
+    width: 100%;
+}
+
+.menu li.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.menu li .icon {
+    margin-right: 10px;
+}

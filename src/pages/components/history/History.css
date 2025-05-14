@@ -1,0 +1,12 @@
+.history-container {
+    padding: 20px;
+}
+
+.history-container h1 {
+    margin-bottom: 10px;
+}
+
+.history-container p {
+    color: var(--mantine-color-gray-6);
+    margin-bottom: 20px;
+}
