@@ -43,7 +43,7 @@ const LoginForm: React.FC = () => {
         <h3 className="login__title">Avtorizatsiya</h3>
         <form className="login__container">
           <div className="login__input-box">
-            <label className="input-box__label">Telefon:</label>
+            <label className="input-box__label">Paydalanıwshı atı:</label>
             <input 
               value={username}
               onChange={(e) => setUsername(e.target.value)}
@@ -59,7 +59,7 @@ const LoginForm: React.FC = () => {
               placeholder="password"/>
           </div>
         </form>
-        <Link to="" className="login__forgot-pass">Paroldi umittin'izba?</Link>
+        <Link to="" className="login__forgot-pass">Paroldi umıttińızba?</Link>
         <button className="login__btn" onClick={handleSubmit}>Avtorizatsiya</button>
         <label>Akkauntıńız joqpa? <Link to="/register">Dizimnen ótiw</Link></label>
       </div>

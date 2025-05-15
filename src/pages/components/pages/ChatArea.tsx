@@ -206,7 +206,7 @@ function ChatArea() {
                 <button 
                     className="send-button" 
                     onClick={handleSendImage} 
-                    disabled={!selectedImage}                >
+                    disabled={!selectedImage}>
                     {t('Send')}
                 </button>
             </div>
