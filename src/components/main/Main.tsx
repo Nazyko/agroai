@@ -9,15 +9,15 @@ export const Main = () => {
     <Flex className="wrapper">
       <motion.div
         className="main"
-        initial={{ opacity: 0, y: 50 }} // Boshlang'ich holat
-        animate={{ opacity: 1, y: 0 }} // Animatsiya holati
-        transition={{ duration: 0.8 }} // Animatsiyaning davomiyligi
+        initial={{ opacity: 0, y: 50 }} 
+        animate={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 0.8 }} 
       >
         <Flex justify="space-around">
           <motion.div
             className="main_left"
-            initial={{ opacity: 0, y: 50 }} // Pastdan boshlash
-            animate={{ opacity: 1, y: 0 }} // Yuqoriga chiqish
+            initial={{ opacity: 0, y: 50 }} 
+            animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.8 }}
           >
             <h2 className="main_title">Biz haqqımızda</h2>
@@ -29,9 +29,9 @@ export const Main = () => {
 
           <motion.div
             className="main_right"
-            initial={{ opacity: 0, y: 50 }} // Pastdan boshlash
-            animate={{ opacity: 1, y: 0 }} // Yuqoriga chiqish
-            transition={{ duration: 1, delay: 0.4 }} // Keyinroq animatsiya
+            initial={{ opacity: 0, y: 50 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 1, delay: 0.4 }}
           >
             <img className="main_image" src={Image} alt="" />
           </motion.div>

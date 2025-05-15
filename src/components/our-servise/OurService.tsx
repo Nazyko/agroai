@@ -10,9 +10,9 @@ export const OurService = () => {
     <Flex className="wrapper">
       <motion.div
         className="service"
-        initial={{ opacity: 0, y: 50 }} // Boshlang'ich holat (pastdan)
-        animate={{ opacity: 1, y: 0 }} // Animatsiyali holat (yuqoriga)
-        transition={{ duration: 1 }} // Animatsiya davomiyligi
+        initial={{ opacity: 0, y: 50 }} 
+        animate={{ opacity: 1, y: 0 }} 
+        transition={{ duration: 1 }} 
       >
         <Flex direction="column" justify="center" align="center">
           <h3 className="service_title">Xızmetler</h3>
@@ -21,9 +21,9 @@ export const OurService = () => {
           </p>
           <motion.div
             className="service_cards"
-            initial={{ opacity: 0, y: 50 }} // Boshlang'ich holat
-            animate={{ opacity: 1, y: 0 }} // Animatsiya holati
-            transition={{ duration: 1, delay: 0.4 }} // Keyingi animatsiya uchun kechikish
+            initial={{ opacity: 0, y: 50 }} 
+            animate={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 1, delay: 0.4 }} 
           >
             <motion.div
               initial={{ opacity: 0, y: 50 }}

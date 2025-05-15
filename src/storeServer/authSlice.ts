@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { postUserRegistration } from './register';
 
 interface AuthState {
-    user: any | null;
+    user: string | null;
     isAuthenticated: boolean;
     loading: boolean;
     error: string | null;
