@@ -22,7 +22,7 @@ export const Navbar = () => {
         <Flex>
             <Image src={Logo} className="nav-logo"/>
         </Flex>
-        <Flex gap={40} className="menu">
+        <Flex gap={40} className="menu" align='center' justify='center'>
           <HashLink smooth to="/#hero">Bas bet</HashLink>
           <HashLink smooth to="/#about">Biz haqqımızda</HashLink>
           <HashLink smooth to="/#service">Xızmetler</HashLink>
